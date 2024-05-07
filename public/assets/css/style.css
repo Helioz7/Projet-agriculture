@@ -1,0 +1,65 @@
+@import url('https://fonts.googleapis.com/css2?family=Bubblegum+Sans&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Satisfy&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Hind+Madurai:wght@300;400;500;600;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Molengo&display=swap');
+ 
+body {
+    overflow-x: hidden;
+}
+ 
+#fondImage {
+    background-size: cover !important;
+    position: relative;
+    right: 17%;
+    bottom: 9%;
+    opacity: 95%;
+    width: auto;
+}
+ 
+.nav-item {
+    font-family: "Hind Madurai", sans-serif;
+}
+ 
+#logo {
+    font-size: 35px;
+    color: rgba(0, 0, 0, 0.69);
+    font-family: "Satisfy", cursive;
+}
+ 
+.container img,
+.container-fluid img {
+    margin-left: 0 !important;
+}
+ 
+#navbar-top {
+    background-color: transparent !important;
+}
+ 
+#texteImg {
+    position: relative;
+    bottom: 14em;
+    color: #53505b;
+    font-size: 50px;
+    font-family: "Molengo", sans-serif;
+}
+ 
+#sousTexte {
+    position: relative;
+    bottom: 32em;
+    color: #53505b;
+ 
+    font-weight: bold;
+    font-family: "Molengo", sans-serif;
+}
+ 
+.nav-link.nav-bar-item:hover {
+    color: green !important;
+}
+.active{
+    color: green !important;
+}
+ 
+.nav-link.nav-bar-item{
+    color: rgba(0, 0, 0, 0.888) !important;
+}
+ 
